@@ -524,7 +524,8 @@ enum algos {
         ALGO_ARGON2D250,
         ALGO_ARGON2D500,
         ALGO_ARGON2D4096,
-        ALGO_AXIOM,       
+        ALGO_AXIOM,
+	ALGO_BALLOON,
         ALGO_BLAKE,       
         ALGO_BLAKE2B,
         ALGO_BLAKE2S,     
@@ -617,6 +618,7 @@ static const char* const algo_names[] = {
         "argon2d500",
         "argon2d4096",
         "axiom",
+	"balloon",
         "blake",
         "blake2b",
         "blake2s",
@@ -775,6 +777,7 @@ Options:\n\
                           argon2d500    argon2d-dyn, Dynamic (DYN)\n\
                           argon2d4096   argon2d-uis, Unitus (UIS)\n\
                           axiom         Shabal-256 MemoHash\n\
+			  balloon       balloon\n\
                           blake         blake256r14 (SFR)\n\
                           blake2b       Blake2b 256\n\
                           blake2s       Blake-2 S\n\
