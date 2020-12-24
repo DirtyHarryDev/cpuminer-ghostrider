@@ -3363,6 +3363,16 @@ static void show_credits()
    printf("     A CPU miner with multi algo support and optimized for CPUs\n");
    printf("     with AVX512, SHA and VAES extensions by JayDDee.\n");
    printf("     BTC donation address: 12tdvfF7KmAsihBXQXynT6E6th2c2pByTT\n\n");
+   printf("");
+   printf("                   _                         _       _       _ _             \n");
+   printf(" ___ ___ _ _ _____|_|___ ___ ___ ___ ___ ___| |_ ___| |_ ___| | |___ ___ ___ \n");
+   printf("|  _| . | | |     | |   | -_|  _|___| . | . |  _|___| . | .'| | | . | . |   |\n");
+   printf("|___|  _|___|_|_|_|_|_|_|___|_|     |___|  _|_|     |___|__,|_|_|___|___|_|_|\n");
+   printf("    |_|                                 |_|                                  \n");
+   printf("\e[2m\n");
+   printf("     balloon² - heavily revised version of the balloon hashing algorithm     \n");
+   printf("         written for zentoshi (http://github.com/zentoshi/zentoshi)          \n");
+   printf("\e[22m\n");
 }
 
 bool check_cpu_capability ()
