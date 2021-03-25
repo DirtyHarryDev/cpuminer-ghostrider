@@ -16,7 +16,7 @@
 #include <memory.h>
 #include <unistd.h>
 #include <openssl/sha.h>
-//#include "miner.h"
+#include "miner.h"
 #include "algo-gate-api.h"
 
 // Define null and standard functions.
