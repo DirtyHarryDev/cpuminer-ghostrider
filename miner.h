@@ -536,6 +536,7 @@ enum algos {
         ALGO_DECRED,
         ALGO_DEEP,
         ALGO_DMD_GR,
+	ALGO_GR,
         ALGO_GROESTL,     
         ALGO_HEX,
         ALGO_HMQ1725,
@@ -629,6 +630,7 @@ static const char* const algo_names[] = {
         "decred",
         "deep",
         "dmd-gr",
+	"gr",
         "groestl",
         "hex",
         "hmq1725",
@@ -788,6 +790,7 @@ Options:\n\
                           decred        Blake256r14dcr\n\
                           deep          Deepcoin (DCN)\n\
                           dmd-gr        Diamond\n\
+			  gr            Gr Hash\n\
                           groestl       Groestl coin\n\
                           hex           x16r-hex\n\
                           hmq1725       Espers\n\
