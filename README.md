@@ -176,6 +176,8 @@ yespowerurx: --algo yespower --param-n 2048 --param-r 32 --param-key "UraniumX"
 
 yespowerltncg: --algo yespower --param-n 2048 --param-r 32 --param-key "LTNCGYES"
 
+yespowermgpc: --a yespower --param-n 2048 --param-r 32 --param-key "Magpies are birds of the Corvidae family."
+
 Errata
 ------
 
