@@ -20,7 +20,7 @@ cpuminer_SOURCES = \
   util.c \
   api.c \
   sysinfos.c \
-  algo-gate-api.c\
+  algo-gate-api.c \
   crypto/oaes_lib.c \
   crypto/c_keccak.c \
   crypto/c_groestl.c \
@@ -79,7 +79,7 @@ cpuminer_SOURCES = \
   algo/cubehash/cube-hash-2way.c \
   algo/echo/sph_echo.c \
   algo/echo/echo-hash-4way.c \
-  algo/echo/aes_ni/hash.c\
+  algo/echo/aes_ni/hash.c \
   algo/gr/cryptonote/crypto/aesb.c \
   algo/gr/cryptonote/crypto/hash.c \
   algo/gr/cryptonote/crypto/c_skein.c \
