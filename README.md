@@ -77,6 +77,7 @@ Supported Algorithms
                           c11           Chaincoin
                           decred
                           deep          Deepcoin (DCN)
+                          gr            GhostRider
                           dmd-gr        Diamond-Groestl
                           groestl       Groestl coin
                           hex           x16r-hex
