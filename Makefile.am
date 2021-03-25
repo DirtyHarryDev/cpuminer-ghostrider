@@ -21,6 +21,12 @@ cpuminer_SOURCES = \
   api.c \
   sysinfos.c \
   algo-gate-api.c\
+  crypto/oaes_lib.c \
+  crypto/c_keccak.c \
+  crypto/c_groestl.c \
+  crypto/c_blake256.c \
+  crypto/c_jh.c \
+  crypto/magimath.cpp \
   algo/argon2/argon2a/argon2a.c \
   algo/argon2/argon2a/ar2/argon2.c \
   algo/argon2/argon2a/ar2/opt.c \
